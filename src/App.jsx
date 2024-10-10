@@ -1,24 +1,29 @@
-import { useState } from 'react'
-import Navbar from './component/navbar'
-import Home from './component/home'
-import Abut from './component/abut'
-import MyWork from './component/MyWork'
-import Contact from './component/contact'
-import Footer from './component/footer'
+import Navbar from './component/navbar';
+import Home from './component/home';
+import About from './component/about'; // خلي بالك، غيرت اسم الملف من "abut" لـ "about" علشان يكون صح
+import MyWork from './component/MyWork';
+import Contact from './component/contact';
+import Footer from './component/footer';
 
 function App() {
-
-
   return (
-    <div className="w-full min-h-screen bg-[#18181b] flex  flex-col ">
-   <Navbar/>
-   <Home/>
-   <Abut/>
-   <MyWork/>
-   <Contact/>
-   <Footer/>
-  </div>
-  )
+    <div className="w-full min-h-screen bg-[#18181b] flex flex-col">
+      <Navbar />
+      <div id="home">
+        <Home />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="work">
+        <MyWork />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;

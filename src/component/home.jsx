@@ -12,10 +12,14 @@ export default function Home() {
           <br />
           for the futre
         </p>
-        <button className="bg-sky-400 w-fit px-3 py-2 rounded-xl flex mx-auto mt-14 ">
-          Download cv
-          <HiOutlineDownload className="ml-3 mt-1" />
-        </button>
+        <a
+        href="../assets/Mohammed Elsayed CV.pdf" 
+        download="Mohammed_Elsayed_CV.pdf"
+        className="bg-sky-400 w-fit px-3 py-2 rounded-xl flex mx-auto mt-14"
+      >
+        Download CV
+        <HiOutlineDownload className="ml-3 mt-1" />
+      </a>
       </div>
   
       <div className="w-2/3 md:w-1/4  rounded-2xl  mt-8 md:mt-0 mx-auto ">
