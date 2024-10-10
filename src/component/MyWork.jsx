@@ -8,7 +8,7 @@ export default function MyWork() {
     <div className='flex flex-col  rounded-xl bg-[#2f2e31] h-96 p-3 my-6 mx-3' >
     <img 
     className='w-full p- rounded-lg'
-    src='/src/assets/project-1.jpg' />
+    src='/public/assets/project-1.jpg' />
     <p
     className='py-3 text-xl text-start'
     >Online book store</p>
@@ -17,7 +17,7 @@ export default function MyWork() {
     <div className='flex flex-col rounded-xl bg-[#2f2e31] h-96 p-3 my-6' >
     <img 
     className='w-full p- rounded-lg'
-    src='/src/assets/project-1.jpg' />
+    src='/public/assets/project-1.jpg' />
     <p
     className='py-3 text-xl text-start'
     >Online book store</p>
@@ -26,7 +26,7 @@ export default function MyWork() {
     <div className='flex flex-col rounded-2xl bg-[#2f2e31] h-96 p-3 my-6 mx-3' >
     <img 
     className='w-full p- rounded-lg'
-    src='/src/assets/project-1.jpg' />
+    src='/public/assets/project-1.jpg' />
     <p
     className='py-3 text-xl text-start'
     >Online book store</p>

@@ -18,7 +18,7 @@ export default function Home() {
       </div>
   
       <div className="w-2/3 md:w-1/4  rounded-2xl  mt-8 md:mt-0 mx-auto ">
-        <img src="/src/assets/pic-removebg.png" 
+        <img src="/public/assets/pic-removebg.png" 
         className="w-full h-96  rounded-xl object-cover  " />
       </div>
     </div>
