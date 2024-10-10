@@ -73,7 +73,7 @@ export default function Tools() {
 
 
     <div class="flex items-center  p-4 rounded-2xl border border-zinc-700">
-      <img src="/public/assets/react.svg" alt="React" class="w-10 h-10 mr-4"/>
+      <img src="../../public/assets/react.svg" alt="React" class="w-10 h-10 mr-4"/>
       <div>
         <p class="text-lg font-semibold">React</p>
         <p class="text-sm text-gray-400">Framework</p>
