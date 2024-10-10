@@ -13,7 +13,7 @@ export default function Tools() {
     <div class="grid grid-cols-1 md:grid-cols-4 gap-3 my-10">
     
     <div class="flex items-center   p-4 rounded-2xl border border-zinc-700">
-      <img  src="/public/assets/figma.svg" alt="Figma" class="w-10 h-10 mr-4"/>
+      <img  src="../assets/figma.svg" alt="Figma" class="w-10 h-10 mr-4"/>
       <div>
         <p class="text-lg font-semibold">Figma</p>
         <p class="text-sm text-gray-400">Design tool</p>
@@ -22,7 +22,7 @@ export default function Tools() {
 
 
     <div class="flex items-center   p-4 rounded-2xl border border-zinc-700">
-      <img src="/public/assets/css3.svg" alt="CSS" class="w-10 h-10 mr-4"/>
+      <img src="../assets/css3.svg" alt="CSS" class="w-10 h-10 mr-4"/>
       <div>
         <p class="text-lg font-semibold">CSS</p>
         <p class="text-sm text-gray-400">User Interface</p>
@@ -30,7 +30,7 @@ export default function Tools() {
     </div>
 
     <div class="flex items-center  p-4 rounded-2xl border border-zinc-700">
-      <img src="/public/assets/javascript.svg" alt="JavaScript" class="w-10 h-10 mr-4"/>
+      <img src="../assets/javascript.svg" alt="JavaScript" class="w-10 h-10 mr-4"/>
       <div>
         <p class="text-lg font-semibold">JavaScript</p>
         <p class="text-sm text-gray-400">Interaction</p>
@@ -39,7 +39,7 @@ export default function Tools() {
 
 
     <div class="flex items-center  p-4 rounded-2xl border border-zinc-700">
-      <img src="/public/assets/nodejs.svg" alt="NodeJS" class="w-10 h-10 mr-4"/>
+      <img src="../assets/nodejs.svg" alt="NodeJS" class="w-10 h-10 mr-4"/>
       <div>
         <p class="text-lg font-semibold">NodeJS</p>
         <p class="text-sm text-gray-400">Web Server</p>
@@ -47,7 +47,7 @@ export default function Tools() {
     </div>
 
     <div class="flex items-center  p-4 rounded-2xl border border-zinc-700">
-    <img src="/public/assets/expressjs.svg" alt="NodeJS" class="w-10 h-10 mr-4"/>
+    <img src="../assets/expressjs.svg" alt="NodeJS" class="w-10 h-10 mr-4"/>
     <div>
       <p class="text-lg font-semibold">expreesjs</p>
       <p class="text-sm text-gray-400">Node Framework</p>
@@ -56,7 +56,7 @@ export default function Tools() {
 
 
     <div class="flex items-center   p-4 rounded-2xl border border-zinc-700">
-      <img src="/public/assets/mongodb.svg" alt="MongoDB" class="w-10 h-10 mr-4"/>
+      <img src="../assets/mongodb.svg" alt="MongoDB" class="w-10 h-10 mr-4"/>
       <div>
         <p class="text-lg font-semibold">MongoDB</p>
         <p class="text-sm text-gray-400">Database</p>
@@ -64,7 +64,7 @@ export default function Tools() {
     </div>
     
     <div class="flex items-center  p-4   rounded-2xl border border-zinc-700">
-    <img src="/public/assets/tailwindcss.svg" alt="NodeJS" class="w-10 h-10 mr-4"/>
+    <img src="../assets/tailwindcss.svg" alt="NodeJS" class="w-10 h-10 mr-4"/>
     <div>
       <p class="text-lg font-semibold">T ailwindcss</p>
       <p class="text-sm text-gray-400">User Interface</p>
@@ -73,7 +73,7 @@ export default function Tools() {
 
 
     <div class="flex items-center  p-4 rounded-2xl border border-zinc-700">
-      <img src="../../public/assets/react.svg" alt="React" class="w-10 h-10 mr-4"/>
+      <img src="../assets/react.svg" alt="React" class="w-10 h-10 mr-4"/>
       <div>
         <p class="text-lg font-semibold">React</p>
         <p class="text-sm text-gray-400">Framework</p>
