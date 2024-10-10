@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className='w-2/3 mt-8 mb-20 mx-auto  flex justify-between  '>
-       <div className='w-1/3 mt-6'>
+    <footer className='w-2/3 mt-8 mb-20 mx-auto  flex flex-col md:flex-row justify-between  '>
+       <div className='md:w-1/3 mt-6 '>
        <h1 className='text-5xl text-white ' >Let's work together today!</h1>
        <button className="bg-sky-400 w-fit px-3 py-2 rounded-xl  mx-auto mt-10 ">
        start project
@@ -11,8 +11,8 @@ export default function Footer() {
      </button>
        </div>
 
-       <div className='w-1/3 flex space-x-44 text-white mr-28'>
-        {/* Sitemap Column */}
+       <div className='md:w-1/3 flex space-x-14 md:space-x-44 text-white md:mr-28 mt-14 md:mt-0 '>
+        
         <div className="flex flex-col">
           <h2 className="text-xl font-semibold mb-4">Sitemap</h2>
           <ul className="space-y-2 text-gray-400">
