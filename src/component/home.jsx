@@ -1,5 +1,6 @@
 import React from "react";
 import { HiOutlineDownload } from "react-icons/hi";
+import img1 from '../../public/assets/pic-removebg';
 export default function Home() {
   return (
     <div className=" w-4/5 min-h-scree flex flex-wrap md:flex-nowrap lg:mx-auto my-24">
@@ -18,7 +19,7 @@ export default function Home() {
       </div>
   
       <div className="w-2/3 md:w-1/4  rounded-2xl  mt-8 md:mt-0 mx-auto ">
-        <img src="/public/assets/pic-removebg.png" 
+        <img src={img1} 
         className="w-full h-96  rounded-xl object-cover  " />
       </div>
     </div>
