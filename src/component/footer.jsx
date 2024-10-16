@@ -36,16 +36,16 @@ export default function Footer() {
           <h2 className="text-xl font-semibold mb-4">Socials</h2>
           <ul className="space-y-2 text-gray-400">
             <li>
-              <a href="#" className="hover:text-white">GitHub</a>
+            <a href="https://github.com/Mohammed972001" target="_blank" className="hover:text-white">GitHub</a>
             </li>
             <li>
-              <a href="#" className="hover:text-white">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/mohammed-elsayed-174990240" target="_blank" className="hover:text-white">LinkedIn</a>
             </li>
             <li>
-              <a href="#" className="hover:text-white">Twitter X</a>
+            <a href="https://wa.me/0103736539" target="_blank" className="hover:text-white">Twitter X</a>
             </li>
             <li>
-              <a href="#" className="hover:text-white">Facebook</a>
+            <a href="https://facebook.com" target="_blank" className="hover:text-white">Facebook</a>
             </li>
           </ul>
         </div>

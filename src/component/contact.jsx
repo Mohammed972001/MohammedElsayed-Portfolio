@@ -26,20 +26,22 @@ export default function Contact() {
           Reach out today to discuss your project needs and start collaborating
           on something amazing!
         </p>
-        <div className="flex space-x-1 pt-20">
-          <div className="flex items-center p-3 cursor-pointer rounded-lg border border-zinc-700 hover:bg-white group">
-            <i className="fab fa-github group-hover:text-black"></i>
-          </div>
-          <div className="flex items-center cursor-pointer p-3 rounded-lg border border-zinc-700 hover:bg-white group">
-            <i className="fab fa-linkedin group-hover:text-black"></i>
-          </div>
-          <div className="flex items-center cursor-pointer p-3 rounded-lg border border-zinc-700 hover:bg-white group">
-            <i className="fab fa-twitter group-hover:text-black"></i>
-          </div>
-          <div className="flex items-center cursor-pointer p-3 rounded-lg border border-zinc-700 hover:bg-white group">
-            <i className="fab fa-facebook group-hover:text-black"></i>
-          </div>
-        </div>
+     <div className="flex space-x-1 pt-20">
+  <a href="https://github.com/Mohammed972001" target="_blank" className="flex items-center p-3 cursor-pointer rounded-lg border border-zinc-700 hover:bg-white group">
+    <i className="fab fa-github group-hover:text-black"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/mohammed-elsayed-174990240" target="_blank" className="flex items-center cursor-pointer p-3 rounded-lg border border-zinc-700 hover:bg-white group">
+    <i className="fab fa-linkedin group-hover:text-black"></i>
+  </a>
+  <a href="https://wa.me/0103736539" target="_blank" className="flex items-center cursor-pointer p-3 rounded-lg border border-zinc-700 hover:bg-white group">
+    <i className="fab fa-whatsapp group-hover:text-black"></i>
+  </a>
+  <a href="https://facebook.com" target="_blank" className="flex items-center cursor-pointer p-3 rounded-lg border border-zinc-700 hover:bg-white group">
+    <i className="fab fa-facebook group-hover:text-black"></i>
+  </a>
+</div>
+
+      
       </div>
 
       {/* Form Section */}
