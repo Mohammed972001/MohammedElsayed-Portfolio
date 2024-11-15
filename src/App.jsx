@@ -1,6 +1,6 @@
 import Navbar from './component/navbar';
 import Home from './component/home';
-import About from './component/about'; // خلي بالك، غيرت اسم الملف من "abut" لـ "about" علشان يكون صح
+import About from './component/about';
 import MyWork from './component/MyWork';
 import Contact from './component/contact';
 import Footer from './component/footer';
