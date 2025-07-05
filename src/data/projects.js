@@ -48,7 +48,30 @@ export const projects = [
     codeLink: "https://github.com/Cars-Rental-management/Frontend",
     liveLink: "https://frontend-five-beige-21.vercel.app/login"
   },
-  
+  {
+    id: 7,
+    image: "../assets/printplus.jpg",
+    title: "PrintPlus website",
+    tags: ["Next.js"],
+    codeLink: "https://github.com/Mohammed972001/printplus",
+    liveLink: "https://printplus.vercel.app/ar"
+  },
+  {
+    id: 8,
+    image: "../assets/Eksab website.jpg",
+    title: "Eksab website",
+    tags: ["Next.js"],
+    codeLink: "https://github.com/Mohammed972001/Eksab",
+    liveLink: "https://eksab.vercel.app/"
+  },
+  {
+    id: 9,
+    image: "../assets/carpet.jpg",
+    title: "Carpet website",
+    tags: ["Under develop"],
+    codeLink: "https://github.com/Mohammed972001/carpet-site",
+    liveLink: "https://carpet-site.vercel.app/"
+  },
   
 
 ]; 
