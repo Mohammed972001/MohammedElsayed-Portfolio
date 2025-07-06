@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from "/images/logo.svg";
+import logo from "/images/لوجو.png";
 import { NAV_LINKS } from '../utils/constants.js';
 
 export default function Navbar() {
