@@ -6,10 +6,11 @@ export default function Home() {
   const [imageLoaded, setImageLoaded] = useState(false);
   
   // Google Drive link provided by the user
-  const googleDriveViewLink = "https://drive.google.com/file/d/1_5o08svwnLMD7nabywgYsLyXAF1dHIJU/view?usp=sharing";
+  const googleDriveViewLink = "https://drive.google.com/file/d/1nvomUUmp2rgmdJeWjr4c-Dck6bNZD-Ec/view?usp=sharing";
   
   // Convert to direct download link format
-  const googleDriveDownloadLink = "https://drive.google.com/uc?export=download&id=1_5o08svwnLMD7nabywgYsLyXAF1dHIJU";
+  const googleDriveDownloadLink = "https://drive.google.com/uc?export=download&id=1nvomUUmp2rgmdJeWjr4c-Dck6bNZD-Ec";
+  
   
   // Preload the hero image
   useEffect(() => {
@@ -36,7 +37,7 @@ export default function Home() {
         {/* Call to Action Section */}
         <section className="relative" aria-label="Download Resume">
           <button
-            className="flex px-3 py-2 mx-auto mt-14 bg-sky-400 rounded-xl w-fit hover:bg-sky-500 transition-colors focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+            className="flex px-3 py-2 mx-auto mt-14 bg-sky-400 rounded-xl transition-colors w-fit hover:bg-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-gray-900"
             onClick={handleButtonClick}
             aria-expanded={showOptions}
             aria-haspopup="true"
@@ -49,7 +50,7 @@ export default function Home() {
           {showOptions && (
             <div className="absolute -left-5 top-16 z-50 p-2 mt-2 w-48 bg-white rounded-md shadow-lg" role="menu" aria-label="Resume options">
               <a 
-                className="flex items-center px-3 py-2 w-full text-black rounded-md hover:bg-gray-100 focus:bg-gray-100 transition-colors"
+                className="flex items-center px-3 py-2 w-full text-black rounded-md transition-colors hover:bg-gray-100 focus:bg-gray-100"
                 href={googleDriveDownloadLink}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -60,7 +61,7 @@ export default function Home() {
                 <span>Download CV</span>
               </a>
               <a 
-                className="flex items-center px-3 py-2 w-full text-black rounded-md hover:bg-gray-100 focus:bg-gray-100 transition-colors"
+                className="flex items-center px-3 py-2 w-full text-black rounded-md transition-colors hover:bg-gray-100 focus:bg-gray-100"
                 href={googleDriveViewLink}
                 target="_blank"
                 rel="noopener noreferrer"
