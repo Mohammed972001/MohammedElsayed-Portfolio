@@ -8,7 +8,7 @@ export default function About() {
           <h2 id="about-heading" className="sr-only">About Mohammed</h2>
         </header>
         
-        <div className="px-11 py-8">
+        <div className="px-5 py-8 md:px-11">
           <p className="text-lg leading-relaxed">
             Welcome! I&apos;m <strong>Mohammed</strong>, a professional web developer with a knack for crafting
             visually stunning and highly functional websites. Combining creativity and
@@ -19,7 +19,7 @@ export default function About() {
           {/* Statistics Section */}
           <section className="flex pt-8 pb-8 space-x-6 md:space-x-12" aria-label="Professional Statistics">
             <div className="text-center">
-              <p className="text-4xl font-bold text-sky-400" aria-label="Number of projects completed">6+</p>
+              <p className="text-4xl font-bold text-sky-400" aria-label="Number of projects completed">8+</p>
               <p className="text-sm text-gray-400">Projects Done</p>
             </div>
             <div className="text-center">

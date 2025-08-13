@@ -1,6 +1,55 @@
 export const projects = [
-  {
+   {
     id: 1,
+    image: "../assets/carpet.jpg",
+    title: "Elamoudi furniture",
+    tags: ["next.js"],
+    codeLink: "https://github.com/Mohammed972001/carpet-site",
+    liveLink: "https://www.elamoudifurniture.com/"
+  },
+  {
+    id: 3,
+    image: "../assets/eksab.jpg",
+    title: "Eksab landingPage",
+    tags: ["Next.js", "MUI"],
+    codeLink: "https://github.com/Mohammed972001/Eksab-Landingpage",
+    liveLink: "https://eksab-landingpage.vercel.app/home"
+  },
+  {
+    id: 2,
+    image: "../assets/tafee.jpg",
+    title: "Tafee website system",
+    tags: ["Next.js"],
+    codeLink: "https://github.com/Mohammed972001/Cinic-Management-System",
+    liveLink: "https://www.tafee.sa/user/home"
+  },
+  {
+    id: 5,
+    image: "../assets/Car.jpg",
+    title: "Car rental website",
+    tags: ["Next.js"],
+    codeLink: "https://github.com/Cars-Rental-management/Frontend",
+    liveLink: "https://frontend-five-beige-21.vercel.app/login"
+  },
+  {
+    id: 4,
+    image: "../assets/printplus.jpg",
+    title: "PrintPlus website",
+    tags: ["Next.js"],
+    codeLink: "https://github.com/Mohammed972001/printplus",
+    liveLink: "https://printplus.vercel.app/ar"
+  },
+  {
+    id: 6,
+    image: "../assets/Eksab website.jpg",
+    title: "Eksab website",
+    tags: ["Next.js"],
+    codeLink: "https://github.com/Mohammed972001/Eksab",
+    liveLink: "https://eksab.vercel.app/"
+  },
+ 
+  {
+    id:7 ,
     image: "../assets/project-2.jpg",
     title: "Book store",
     tags: ["Back End", "Api"],
@@ -8,7 +57,7 @@ export const projects = [
     liveLink: "https://book-store-frontend-navy.vercel.app/"
   },
   {
-    id: 2,
+    id: 9,
     image: "../assets/project-4.jpg",
     title: "Landing page",
     tags: ["css"],
@@ -17,7 +66,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 8,
     image: "../assets/code flow.jpeg",
     title: "Code Flow Company Website",
     tags: ["Next.js"],
@@ -25,55 +74,16 @@ export const projects = [
     liveLink: "https://code-flow-drab.vercel.app/"
   },
   {
-    id: 4,
-    image: "../assets/eksab.jpg",
-    title: "Eksab landingPage",
-    tags: ["Next.js", "MUI"],
-    codeLink: "https://github.com/Mohammed972001/Eksab-Landingpage",
-    liveLink: "https://eksab-landingpage.vercel.app/home"
-  },
-  {
-    id: 5,
-    image: "../assets/tafee.jpg",
-    title: "Tafee website system",
-    tags: ["Next.js"],
-    codeLink: "https://github.com/Mohammed972001/Cinic-Management-System",
-    liveLink: "https://www.tafee.sa/user/home"
-  },
-  {
-    id: 6,
-    image: "../assets/Car.jpg",
-    title: "Car rental website",
-    tags: ["Next.js"],
-    codeLink: "https://github.com/Cars-Rental-management/Frontend",
-    liveLink: "https://frontend-five-beige-21.vercel.app/login"
-  },
-  {
-    id: 7,
-    image: "../assets/printplus.jpg",
-    title: "PrintPlus website",
-    tags: ["Next.js"],
-    codeLink: "https://github.com/Mohammed972001/printplus",
-    liveLink: "https://printplus.vercel.app/ar"
-  },
-  {
-    id: 8,
-    image: "../assets/Eksab website.jpg",
-    title: "Eksab website",
-    tags: ["Next.js"],
-    codeLink: "https://github.com/Mohammed972001/Eksab",
-    liveLink: "https://eksab.vercel.app/"
-  },
-  {
-    id: 9,
-    image: "../assets/carpet.jpg",
-    title: "Carpet website",
-    tags: ["Under develop"],
-    codeLink: "https://github.com/Mohammed972001/carpet-site",
-    liveLink: "https://carpet-site.vercel.app/"
-  },
-  
+    id: 10,
+    image: "../assets/CMS.png",
+    title: "OSTOOL CMS",
+    tags: ["CMS Payload"],
+    codeLink: "https://github.com/Mohammed972001/ostool",
+    liveLink: "https://ostool.vercel.app/"
+  }
 
-]; 
+
+
+];
 
 
