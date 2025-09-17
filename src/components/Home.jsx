@@ -6,10 +6,10 @@ export default function Home() {
   const [imageLoaded, setImageLoaded] = useState(false);
   
   // Google Drive link provided by the user
-  const googleDriveViewLink = "https://drive.google.com/file/d/1nvomUUmp2rgmdJeWjr4c-Dck6bNZD-Ec/view?usp=sharing";
+  const googleDriveViewLink = "https://drive.google.com/file/d/11p2nQj62DtwRNLRyPwjzuxcZjoJW8gU3/view?usp=sharing";
   
   // Convert to direct download link format
-  const googleDriveDownloadLink = "https://drive.google.com/uc?export=download&id=1nvomUUmp2rgmdJeWjr4c-Dck6bNZD-Ec";
+  const googleDriveDownloadLink = "https://drive.google.com/uc?export=download&id=11p2nQj62DtwRNLRyPwjzuxcZjoJW8gU3";
   
   
   // Preload the hero image
@@ -24,7 +24,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col mt-20 w-full min-h-screen lg:w-4/5 md:flex-row lg:mt-0 lg:mx-auto">
+    <main className="flex flex-col w-full min-h-screen mt-20 lg:w-4/5 md:flex-row lg:mt-0 lg:mx-auto">
       {/* Hero Text Section */}
       <section className="flex flex-col justify-center w-full md:w-1/2 md:ml-14">
         <header>
@@ -37,7 +37,7 @@ export default function Home() {
         {/* Call to Action Section */}
         <section className="relative" aria-label="Download Resume">
           <button
-            className="flex px-3 py-2 mx-auto mt-14 bg-sky-400 rounded-xl transition-colors w-fit hover:bg-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+            className="flex px-3 py-2 mx-auto transition-colors mt-14 bg-sky-400 rounded-xl w-fit hover:bg-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-gray-900"
             onClick={handleButtonClick}
             aria-expanded={showOptions}
             aria-haspopup="true"
@@ -48,9 +48,9 @@ export default function Home() {
           </button>
           
           {showOptions && (
-            <div className="absolute -left-5 top-16 z-50 p-2 mt-2 w-48 bg-white rounded-md shadow-lg" role="menu" aria-label="Resume options">
+            <div className="absolute z-50 w-48 p-2 mt-2 bg-white rounded-md shadow-lg -left-5 top-16" role="menu" aria-label="Resume options">
               <a 
-                className="flex items-center px-3 py-2 w-full text-black rounded-md transition-colors hover:bg-gray-100 focus:bg-gray-100"
+                className="flex items-center w-full px-3 py-2 text-black transition-colors rounded-md hover:bg-gray-100 focus:bg-gray-100"
                 href={googleDriveDownloadLink}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export default function Home() {
                 <span>Download CV</span>
               </a>
               <a 
-                className="flex items-center px-3 py-2 w-full text-black rounded-md transition-colors hover:bg-gray-100 focus:bg-gray-100"
+                className="flex items-center w-full px-3 py-2 text-black transition-colors rounded-md hover:bg-gray-100 focus:bg-gray-100"
                 href={googleDriveViewLink}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -77,12 +77,12 @@ export default function Home() {
       </section>
 
       {/* Hero Image Section */}
-      <section className="flex justify-center items-center mx-auto mt-8 w-3/4 rounded-2xl md:w-1/4 md:mt-0" aria-label="Profile Photo">
+      <section className="flex items-center justify-center w-3/4 mx-auto mt-8 rounded-2xl md:w-1/4 md:mt-0" aria-label="Profile Photo">
         {/* Hero image with loading optimization */}
         <figure className="relative w-full h-96">
           {!imageLoaded && (
-            <div className="flex justify-center items-center w-full h-full bg-gray-800 rounded-xl animate-pulse" aria-label="Loading profile image">
-              <div className="w-16 h-16 rounded-full border-4 border-sky-400 animate-spin border-t-transparent" role="status" aria-label="Loading"></div>
+            <div className="flex items-center justify-center w-full h-full bg-gray-800 rounded-xl animate-pulse" aria-label="Loading profile image">
+              <div className="w-16 h-16 border-4 rounded-full border-sky-400 animate-spin border-t-transparent" role="status" aria-label="Loading"></div>
             </div>
           )}
           <img 

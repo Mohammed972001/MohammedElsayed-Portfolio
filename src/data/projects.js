@@ -3,9 +3,18 @@ export const projects = [
     id: 1,
     image: "../assets/carpet.jpg",
     title: "Elamoudi furniture",
-    tags: ["next.js"],
+
+    tags: ["Next.js"],
     codeLink: "https://github.com/Mohammed972001/carpet-site",
     liveLink: "https://www.elamoudifurniture.com/"
+  },
+   {
+    id: 3,
+    image: "../assets/SHELIS.svg",
+    title: "SHELIS Website",
+    tags: ["responsive", "Next.js"] ,
+    codeLink: "https://github.com/Mohammed972001/SHELIS",
+    liveLink: "https://shelis.vercel.app/"
   },
   
   {
