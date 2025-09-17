@@ -7,14 +7,7 @@ export const projects = [
     codeLink: "https://github.com/Mohammed972001/carpet-site",
     liveLink: "https://www.elamoudifurniture.com/"
   },
-  {
-    id: 3,
-    image: "../assets/eksab.jpg",
-    title: "Eksab landingPage",
-    tags: ["Next.js", "MUI"],
-    codeLink: "https://github.com/Mohammed972001/Eksab-Landingpage",
-    liveLink: "https://eksab-landingpage.vercel.app/home"
-  },
+  
   {
     id: 2,
     image: "../assets/tafee.jpg",
@@ -31,22 +24,8 @@ export const projects = [
     codeLink: "https://github.com/Cars-Rental-management/Frontend",
     liveLink: "https://frontend-five-beige-21.vercel.app/login"
   },
-  {
-    id: 4,
-    image: "../assets/printplus.jpg",
-    title: "PrintPlus website",
-    tags: ["Next.js"],
-    codeLink: "https://github.com/Mohammed972001/printplus",
-    liveLink: "https://printplus.vercel.app/ar"
-  },
-  {
-    id: 6,
-    image: "../assets/Eksab website.jpg",
-    title: "Eksab website",
-    tags: ["Next.js"],
-    codeLink: "https://github.com/Mohammed972001/Eksab",
-    liveLink: "https://eksab.vercel.app/"
-  },
+ 
+ 
  
   {
     id:7 ,
@@ -65,14 +44,7 @@ export const projects = [
     liveLink: "https://mohammed972001.github.io/bakery-landingPage/"
   },
 
-  {
-    id: 8,
-    image: "../assets/code flow.jpeg",
-    title: "Code Flow Company Website",
-    tags: ["Next.js"],
-    codeLink: "https://github.com/Mohammed972001/code-flow",
-    liveLink: "https://code-flow-drab.vercel.app/"
-  },
+ 
   {
     id: 10,
     image: "../assets/CMS.png",
